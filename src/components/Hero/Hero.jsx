@@ -11,14 +11,24 @@ export const Hero = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Pellentesque volutpat eu ligula sit amet pellentesque.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Pellentesque volutpat eu ligula sit amet pellentesque.
+
                 </p>
-                <button className={styles.contactBtn}>Contact Me</button>
+                <div className={styles.interact}>
+                    <button className={styles.contactBtn}>CONTACT ME</button>
+                </div>
             </div>
             <div className={styles.imgSection}>
                 <h2 className={styles.sideT}>PORTFOLIO</h2>
-                <img src={getImageUrl("hero/photo.jpg")} 
-                className={styles.image} />
+                <img src={getImageUrl("hero/photo.jpg")}
+                    className={styles.image} />
+            </div>
+            <div className={styles.scrollContainer}>
+                <div className={styles.scrolldown}>
+                    <div className={styles.chevrons}>
+                        <div className={styles.chevrondown}></div>
+                        <div className={styles.chevrondown}></div>
+                    </div>
+                </div>
             </div>
         </section>
     )
