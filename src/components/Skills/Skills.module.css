@@ -1,0 +1,82 @@
+@import "../../vars.css";
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1364px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iconList{
+    width: 750px;
+    height: 1367px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillCard{
+    position: sticky;
+    top: 30px;
+    width: 590px;
+    height: 650px;
+    background-color: var(--color-skills);
+    box-shadow: 0 0 32px 2px rgba(255, 129, 33, 0.57);
+    border-radius: 30px;
+    display: flex;
+}
+
+progress {
+
+    width: 160px;
+    height: 160px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .progress svg {
+    transform: rotate(-90deg);
+  }
+  
+  circle {
+    stroke-dashoffset: 0;
+    stroke-width: 5%;
+    fill: none;
+  }
+  
+  .bg {
+    stroke: rgb(0, 0, 0);
+    opacity: 0.2;
+  }
+  
+  .progress .indicator {
+    stroke: rgb(255, 255, 255);
+  }
+
+
+.info{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    margin-top: 70px;
+    
+}
+
+.infoText{
+    width: 340px;
+    font-size: 20px;
+}
+.vertical{
+    font-family: "fit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 240px;
+    writing-mode: vertical-lr;
+    opacity: 17%;
+    color: black;
+    height: 408px;
+    margin-left: -30px;
+    margin-top: 89px;
+}
