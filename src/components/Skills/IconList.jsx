@@ -5,7 +5,7 @@ import { getImageUrl } from '../../utils'
 
 export const IconList = (props) => {
   return (
-    <div>
+    <div className={styles.container}>
         <img src={getImageUrl('icons/' + props.icon + '.png')}
                     className={styles.image}></img>
         <h4>{props.software}</h4>

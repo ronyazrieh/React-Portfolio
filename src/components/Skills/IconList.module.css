@@ -1,1 +1,30 @@
 @import "../../vars.css";
+
+.container{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+h4{
+    font-family: "elza", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 830px){
+
+    .container{
+        width: 140px;
+        gap: 10px;
+        height: 150px;
+    }
+    .image{
+        width:70%;
+        margin-inline: auto;
+    }
+}

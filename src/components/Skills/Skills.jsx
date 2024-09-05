@@ -9,20 +9,22 @@ export const Skills = () => {
     const ref = useRef(null);
     const { scrollYProgress } = useScroll({
         target: ref,
-        offset: ["start start", "end end"]
+        offset: ["start 3%", "end 70%"]
     });
 
     return (
         <section className={styles.container} ref= {ref}>
             <div className={styles.iconList}>
                 <IconList software="HTML" icon="HTML"/>
-                <IconList software="HTML" icon="HTML"/>
-                <IconList software="HTML" icon="HTML"/>
-                <IconList software="HTML" icon="HTML"/>
-                <IconList software="HTML" icon="HTML"/>
-                <IconList software="HTML" icon="HTML"/>
-                <IconList software="HTML" icon="HTML"/>
-                <IconList software="HTML" icon="HTML"/>
+                <IconList software="CSS" icon="CSS"/>
+                <IconList software="JavaScript" icon="JAVASCRIPT"/>
+                <IconList software="React" icon="REACT"/>
+                <IconList software="Django" icon="DJANGO"/>
+                <IconList software="TypeScript" icon="TYPESCRIPT"/>
+                <IconList software="VSCode" icon="VSCODE"/>
+                <IconList software="Git" icon="GIT"/>
+                <IconList software="Adobe Xd" icon="ADOBEXD"/>
+                <IconList software="Git Hub" icon="GITHUB"/>
             </div>
             <div className={styles.skillCard}>
                 <div>

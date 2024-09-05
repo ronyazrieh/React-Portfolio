@@ -7,6 +7,7 @@
     width: 1364px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 150px;
 }
 
 .iconList{
@@ -14,6 +15,7 @@
     height: 1367px;
     display: flex;
     flex-wrap: wrap;
+    column-gap: 70px;
 }
 
 .skillCard{
@@ -27,7 +29,7 @@
     display: flex;
 }
 
-progress {
+.progress {
 
     width: 160px;
     height: 160px;
@@ -79,4 +81,48 @@ progress {
     height: 408px;
     margin-left: -30px;
     margin-top: 89px;
+}
+
+@media screen and (max-width: 830px){
+  .container{
+    width: 350px;
+    flex-direction: column-reverse;
+    gap:100px;
+  }
+
+  .skillCard{
+    width: 350px;
+    height: 600px;
+    position: relative;
+    flex-direction: column;
+  }
+  .infoText{
+    width: auto;
+    font-size: 16px;
+  }
+
+  .info{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .progress{
+    display: none;
+  }
+  .vertical{
+    font-size: 148px;
+    writing-mode: horizontal-tb;
+    margin: 0;
+    margin-top: 20px;
+    height: auto;
+}
+
+.iconList{
+  width: 350px;
+  gap: 10px;
+  justify-content: space-around;
+  height: 900px;
+}
+
 }
