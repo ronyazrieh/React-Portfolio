@@ -1,0 +1,77 @@
+@import "../../vars.css";
+
+.container{
+    margin-top: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ProjectSection{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 120px;
+    row-gap: 120px;
+}
+.ProjectCard img{
+    width: 580px;
+    margin: 43px;
+    border-radius: 15px;
+}
+
+.ProjectCard{
+    display: flex;
+    border-radius: 30px;
+    width: 1364px;
+}
+
+#one{
+    background-color: #EF4F8B;
+    box-shadow: 0 0 32px 2px rgba(239, 79, 139, 0.30);
+
+}
+
+#two{
+    flex-direction: row-reverse;
+    background-color: #96CE10;
+    box-shadow: 0 0 32px 2px rgba(150, 206, 16, 0.30);
+
+}
+
+#one .ProjectInfo{
+    margin-left: 43px;
+}
+#two .ProjectInfo{
+    margin-left: 43px;
+}
+
+.ProjectInfo{
+    margin: auto;
+    margin-top: 43px;
+    color: white;
+}
+
+.ProjectTitle{
+    font-family: "elza", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px; 
+    margin: 0px;
+}
+
+.ProjectDesc{
+    font-size: 20px;
+    width: 540px;
+    margin-top: 27px;
+}
+
+.ProjectKey{
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+    opacity: 60%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 140px;
+}

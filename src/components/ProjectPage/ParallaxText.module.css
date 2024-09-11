@@ -1,0 +1,31 @@
+@import "../../vars.css";
+
+
+.parallax {
+    overflow: hidden;
+    line-height: 0.8;
+    margin: 0;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .parallax .scroller {
+    text-transform: uppercase;
+    display: flex;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .parallax span {
+    font-family: "fit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+    /* text-shadow: -3px -3px 0 #ffffff, 3px -3px 0 #ffffff, -3px 3px 0 #ffffff, 3px 3px 0 #ffffff; */
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-right: 30px;
+  }
+  
