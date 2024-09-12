@@ -15,7 +15,7 @@ export const ProjectPage = () => {
 
         <motion.div className={styles.ProjectCard} id={styles.one}
         whileHover={{
-          boxShadow: "0 0 32px 7px rgba(239, 79, 139, 0.30)",
+          boxShadow: "0 0 32px 7px rgba(239, 79, 139, 0.50)",
           transition: { duration: .3 },
         }}>
           <div className={styles.ProjectInfo}>
@@ -32,7 +32,7 @@ export const ProjectPage = () => {
 
         <motion.div className={styles.ProjectCard} id={styles.two}
         whileHover={{
-          boxShadow: "0 0 32px 7px rgba(150, 206, 16, 0.30)",
+          boxShadow: "0 0 32px 7px rgba(150, 206, 16, 0.50)",
           transition: { duration: .3 },
         }}>
           <div className={styles.ProjectInfo}>

@@ -24,7 +24,7 @@
     width: 590px;
     height: 650px;
     background-color: var(--color-skills);
-    box-shadow: 0 0 32px 2px rgba(255, 129, 33, 0.30);
+    box-shadow: 0 0 32px 2px rgba(31, 204, 146, 0.30);
     border-radius: 30px;
     display: flex;
 }

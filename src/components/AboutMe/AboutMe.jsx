@@ -8,7 +8,7 @@ export const Aboutme = () => {
         <section className={styles.container}>
             <motion.div className={styles.card}
             whileHover={{
-                boxShadow: "0 0 32px 7px rgba(127, 0, 255, 0.30)",
+                boxShadow: "0 0 32px 7px rgba(127, 0, 255, 0.40)",
                 transition: { duration: .3 },
               }}>
                 <h1 className={styles.vertical}>About Me</h1>

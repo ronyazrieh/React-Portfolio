@@ -26,11 +26,7 @@ export const Skills = () => {
                 <IconList software="Adobe Xd" icon="ADOBEXD"/>
                 <IconList software="Git Hub" icon="GITHUB"/>
             </div>
-            <motion.div className={styles.skillCard}
-            whileHover={{
-                boxShadow: "box-shadow: 0 0 32px 7px rgba(255, 129, 33, 0.30)",
-                transition: { duration: .3 },
-              }}>
+            <div className={styles.skillCard}>
                 <div>
                     <figure className={styles.progress}>
                         <svg id={styles.progress} width="150" height="150" viewBox="0 0 100 100">
@@ -60,7 +56,7 @@ export const Skills = () => {
                         <p className={styles.infoText}>On the backend my main focus is to create intuitive and simplistic data structures. I have used Djnago and taken advantage of it's advanced Superadmin technology to create web app's that store and display information.</p>
                     </div>
                 </div>
-            </motion.div>
+            </div>
         </section>
     )
 }
