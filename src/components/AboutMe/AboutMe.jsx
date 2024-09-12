@@ -1,11 +1,16 @@
 import React from 'react'
 import { getImageUrl } from '../../utils'
 import styles from "./AboutMe.module.css";
+import { motion } from 'framer-motion';
 
 export const Aboutme = () => {
     return (
         <section className={styles.container}>
-            <div className={styles.card}>
+            <motion.div className={styles.card}
+            whileHover={{
+                boxShadow: "0 0 32px 7px rgba(127, 0, 255, 0.30)",
+                transition: { duration: .3 },
+              }}>
                 <h1 className={styles.vertical}>About Me</h1>
                 <div className={styles.info}>
                     <div className={styles.infoBlock}>
@@ -23,7 +28,7 @@ export const Aboutme = () => {
                         <p className={styles.infoText}>I am a student in the Co-op program, and am available throughout 2025</p>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </section>
     )
 }

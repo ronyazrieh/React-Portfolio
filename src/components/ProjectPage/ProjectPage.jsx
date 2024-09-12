@@ -2,6 +2,7 @@ import React from 'react'
 import { ParallaxText } from './ParallaxText'
 import { getImageUrl } from '../../utils'
 import styles from "./ProjectPage.module.css";
+import { motion } from 'framer-motion';
 
 export const ProjectPage = () => {
   return (
@@ -12,7 +13,11 @@ export const ProjectPage = () => {
       </div>
       <div className={styles.ProjectSection}>
 
-        <div className={styles.ProjectCard} id={styles.one}>
+        <motion.div className={styles.ProjectCard} id={styles.one}
+        whileHover={{
+          boxShadow: "0 0 32px 7px rgba(239, 79, 139, 0.30)",
+          transition: { duration: .3 },
+        }}>
           <div className={styles.ProjectInfo}>
             <h4 className={styles.ProjectTitle}>Limitless</h4>
             <p className={styles.ProjectDesc}>I am completing my Bachelors with a specification in Web Development and have experience using technology such as React, Django, Node.js and more.</p>
@@ -23,9 +28,13 @@ export const ProjectPage = () => {
             </div>
           </div>
           <img src={getImageUrl("projects/Limitless.png")}></img>
-        </div>
+        </motion.div>
 
-        <div className={styles.ProjectCard} id={styles.two}>
+        <motion.div className={styles.ProjectCard} id={styles.two}
+        whileHover={{
+          boxShadow: "0 0 32px 7px rgba(150, 206, 16, 0.30)",
+          transition: { duration: .3 },
+        }}>
           <div className={styles.ProjectInfo}>
             <h4 className={styles.ProjectTitle}>NexGen League</h4>
             <p className={styles.ProjectDesc}>I am completing my Bachelors with a specification in Web Development and have experience using technology such as React, Django, Node.js and more.</p>
@@ -36,7 +45,7 @@ export const ProjectPage = () => {
             </div>
           </div>
           <img src={getImageUrl("projects/NXG.png")}></img>
-        </div>
+        </motion.div>
 
       </div>
 
