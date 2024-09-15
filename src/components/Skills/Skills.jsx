@@ -45,16 +45,17 @@ export const Skills = () => {
                 </div>
                 <div className={styles.info}>
                     <div className={styles.infoBlock}>
-                        <p className={styles.infoText}>My skills are a culmination of tools and techniques I have studied and developed with throughout my University education, and Meta Certificates. </p>
+                        <p className={styles.infoText}>My skills are a culmination of tools and techniques I have studied and developed with throughout my university education, and Meta Certificates. </p>
                     </div>
                     <hr />
                     <div className={styles.infoBlock}>
-                        <p className={styles.infoText}>On the front end I focus on building using React. I have used this library to power interactive SPAs, and utilize it's library of tools to create unique visual experiences.</p>
+                        <p className={styles.infoText}>On the front end I focus on building using React. I have used this library to power interactive SPAs, and utilize it's library of tools and packages to create unique visual experiences such as this website.</p>
                     </div>
                     <hr />
                     <div className={styles.infoBlock}>
-                        <p className={styles.infoText}>On the backend my main focus is to create intuitive and simplistic data structures. I have used Djnago and taken advantage of it's advanced Superadmin technology to create web app's that store and display information.</p>
+                        <p className={styles.infoText}>On the backend my main focus is to create intuitive and simplistic data structures. I have used Django and taken advantage of it's advanced Superadmin technology to create web apps that store and display information.</p>
                     </div>
+                    
                 </div>
             </div>
         </section>

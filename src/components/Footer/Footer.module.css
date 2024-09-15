@@ -1,0 +1,86 @@
+@import "../../vars.css";
+
+.container{
+    margin-top: 350px;
+    row-gap: 120px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px;
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: var(--color-cme);
+    box-shadow: 0px 99px 88px -131px rgba(243,0,66,0.15) inset;
+    -webkit-box-shadow: 0px 99px 88px -131px rgba(243,0,66,0.15) inset;
+    -moz-box-shadow: 0px 99px 88px -131px rgba(243,0,66,0.15) inset;
+}
+
+#nameTwo{
+    display: none;
+}
+
+.linkSection{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    column-gap: 400px;
+}
+
+.linkHeader{
+    margin-top: 0px;
+    font-family: "elza", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+}
+
+.linkList{
+    list-style-type: none;
+} 
+
+.linkList li{
+    margin-top: 15px;
+}
+
+.linkList li a{
+    color: rgba(255, 255, 255, 0.555);
+    text-decoration: none;
+}
+
+.linkList li a:hover{
+    color: rgba(255, 255, 255);
+
+}
+
+.linkCol{
+    color: rgba(255, 255, 255, 0.555);
+}
+
+.quoteSection p{
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+@media screen and (max-width: 830px){
+
+    .container{
+        margin-top: 100px;
+        row-gap: 60px;
+    }
+    .linkSection{
+        column-gap: 20px;
+    }
+
+    #nameOne{
+        display: none;
+    }
+
+    #nameTwo{
+        display:block;
+    }
+}

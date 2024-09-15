@@ -8,9 +8,7 @@ export const Hero = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}>Welcome, I'm Rony</h1>
                 <p className={styles.description}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Pellentesque volutpat eu ligula sit amet pellentesque.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Web Developer. React Enthusiast. Co-op Student.
 
                 </p>
                 <div className={styles.interact}>
@@ -19,7 +17,7 @@ export const Hero = () => {
             </div>
             <div className={styles.imgSection}>
                 <h2 className={styles.sideT}>PORTFOLIO</h2>
-                <img src={getImageUrl("hero/photo.jpg")}
+                <img src={getImageUrl("hero/Pixel Art.png")}
                     className={styles.image} />
             </div>
             <div className={styles.scrollContainer}>

@@ -24,7 +24,7 @@
 
 .menu {
     display: flex;
-    gap: 28px;
+    gap: 23px;
     list-style: none;
     margin: auto;
     font-size: 20px;
@@ -33,6 +33,17 @@
 .menu a{
     text-decoration: none;
     color: white;
+    padding: 5px;
+    transition: .2s;
+}
+
+.menu a:hover{
+  background-color: var(--color-cme);
+  padding: 5px;
+}
+
+.menu a:active{
+  color: rgba(255, 255, 255, 0.76);
 }
 
 

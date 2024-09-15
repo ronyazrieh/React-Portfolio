@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import styles from "./Navbar.module.css"
 import { getImageUrl } from "../../utils"
+import { motion } from "framer-motion";
 
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -30,7 +31,7 @@ export const Navbar = () => {
                 </label>
                 <ul className={`${styles.menu} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}  >
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#About">About</a>
                     </li>
                     <li>
                         <a href="#Experience">Experience</a>
