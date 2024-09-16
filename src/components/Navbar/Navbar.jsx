@@ -32,7 +32,7 @@ export const Navbar = () => {
                     </label>
                     <ul className={`${styles.menu} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}  >
                         <li>
-                            <Link to="about" smooth={true} duration={500} offset={-120}>About Me</Link>
+                            <Link to="about" smooth={true} duration={500} offset={-120}>About</Link>
                         </li>
                         <li>
                             <Link to="skills" smooth={true} duration={500} offset={-50}>Skills</Link>
