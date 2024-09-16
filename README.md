@@ -8,4 +8,4 @@ This repository holds the code for my personal website. THe purpose of the websi
 
 <br />
 <br />
-# This website was designed and coded by me!
+#This website was designed and coded by me!
