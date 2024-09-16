@@ -7,19 +7,24 @@ import { Aboutme } from './components/AboutMe/AboutMe'
 import { Skills } from './components/Skills/Skills'
 import { ProjectPage } from './components/ProjectPage/ProjectPage'
 import { Footer } from './components/Footer/Footer'
+import { BrowserRouter as Router } from "react-router-dom";
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 function App() {
- 
+
 
   return (
-    <div className={styles.App}> 
-      <Navbar />
-      <Hero />
-      <Aboutme />
-      <Skills />
-      <ProjectPage />
-      <Footer />
-    </div>
+    <Router>
+      <div className={styles.App}>
+        <Navbar />
+        <Hero />
+        <Aboutme />
+        <Skills />
+        <ProjectPage />
+        <Footer />
+      </div>
+    </Router>
   )
 }
 

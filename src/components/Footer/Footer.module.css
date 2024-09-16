@@ -47,6 +47,7 @@
 .linkList li a{
     color: rgba(255, 255, 255, 0.555);
     text-decoration: none;
+    cursor: pointer;
 }
 
 .linkList li a:hover{
