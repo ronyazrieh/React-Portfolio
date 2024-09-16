@@ -4,4 +4,4 @@ This repository holds the code for my personal website. THe purpose of the websi
 
 <a href="ronyazrieh.com">Visit the website now!</a>
 
-<img src="assets/projects/portfolio.png">
+<img src="assets/projects/Portfolio.png">
