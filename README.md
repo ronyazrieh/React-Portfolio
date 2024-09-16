@@ -15,4 +15,4 @@ I used React to create this website and specifcally took advantage of the multit
 
 <h3>Netlify</h3>
 
-This website was deployed using Netlify and has its own custom domain. My name. <a href="ronyazrieh.com> ronyazrieh.com </a>
+This website was deployed using Netlify and has its own custom domain. My name. <a href="ronyazrieh.com"> ronyazrieh.com </a>
