@@ -8,4 +8,11 @@ This repository holds the code for my personal website. THe purpose of the websi
 
 <br />
 <br />
-#This website was designed and coded by me!
+
+<h3>React</h3>
+
+I used React to create this website and specifcally took advantage of the multitude of installable packages to achieve my goals. These include FramerMotion, Motion, react-router-dom, and react-icons. These packages were used to achieve the final build of this website.
+
+<h3>Netlify</h3>
+
+This website was deployed using Netlify and has its own custom domain. My name. <a href="ronyazrieh.com> ronyazrieh.com </a>
