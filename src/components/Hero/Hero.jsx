@@ -7,6 +7,7 @@ export const Hero = () => {
     return (
         <Element name='hero'>
             <section className={styles.container}>
+                <div className={styles.top}>
                 <div className={styles.content}>
                     <h1 className={styles.title}>Welcome, I'm Rony</h1>
                     <p className={styles.description}>
@@ -23,6 +24,7 @@ export const Hero = () => {
                     <h2 className={styles.sideT}>PORTFOLIO</h2>
                     <img src={getImageUrl("hero/Pixel Art.png")}
                         className={styles.image} />
+                </div>
                 </div>
                 <div className={styles.scrollContainer}>
                     {/* Scroll down indicator to scroll to about */}

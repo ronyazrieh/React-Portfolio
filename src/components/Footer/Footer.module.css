@@ -3,8 +3,10 @@
 .container{
     margin-top: 350px;
     row-gap: 120px;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    padding-inline: 5%;
     border-top: 1px;
     border-style: solid;
     border-bottom: 0px;
@@ -16,6 +18,7 @@
     -moz-box-shadow: 0px 99px 88px -131px rgba(243,0,66,0.15) inset;
 }
 
+
 #nameTwo{
     display: none;
 }
@@ -24,7 +27,7 @@
     display: flex;
     margin: auto;
     margin-top: 50px;
-    column-gap: 400px;
+    column-gap: 200px;
 }
 
 .linkHeader{
