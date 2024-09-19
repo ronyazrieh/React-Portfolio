@@ -48,7 +48,7 @@
 }
 
 
-@media screen and (max-width:830px){
+@media screen and (max-width:1024px){
   .title{
     padding-right: 20px;
   }
@@ -159,7 +159,7 @@
     
 }
 
-@media screen and (min-width: 831px) {
+@media screen and (min-width: 1024px) {
   .container {
     display: none;
   }

@@ -70,7 +70,7 @@
     color: rgba(255, 255, 255, 0.555);
 }
 
-@media screen and (max-width: 830px){
+@media screen and (max-width: 1024px){
 
     .container{
         margin-top: 100px;
