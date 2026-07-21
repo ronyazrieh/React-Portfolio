@@ -19,17 +19,17 @@ export const Aboutme = () => {
                     <div className={styles.info}>
                         <div className={styles.infoBlock}>
                             <h3 className={styles.infoHeader}>Education</h3>
-                            <p className={styles.infoText}>Carleton University obtaining a Bachelors of Information Technology, Interactive Multimedia and Design. With a specifcation in Web Development</p>
+                            <p className={styles.infoText}>Bachelor of Information Technology in Interactive Multimedia and Design from Carleton University, with a specialization in Software Development.</p>
                         </div>
                         <hr />
                         <div className={styles.infoBlock}>
-                            <h3 className={styles.infoHeader}>Web Developer</h3>
-                            <p className={styles.infoText}>Bachelors with a specification in Web Development and experience using technology such as React, Django, Node.js and more.</p>
+                            <h3 className={styles.infoHeader}>Software Development</h3>
+                            <p className={styles.infoText}>Experience developing full-stack web applications using React, JavaScript, Django, PHP, Node.js, SQL, and REST APIs, with a focus on building scalable and user-focused solutions.</p>
                         </div>
                         <hr />
                         <div className={styles.infoBlock}>
-                            <h3 className={styles.infoHeader}>Co-op</h3>
-                            <p className={styles.infoText}>Student in the Co-op program, and available throughout 2025.</p>
+                            <h3 className={styles.infoHeader}>Professional Experience</h3>
+                            <p className={styles.infoText}>Solutions Architect Intern at eKhonnector, where I developed production web applications, integrated REST APIs, worked with SQL databases, and collaborated with clients and developers to deliver business solutions.</p>
                         </div>
                     </div>
                 </motion.div>

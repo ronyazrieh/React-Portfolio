@@ -11,7 +11,7 @@ export const Hero = () => {
                 <div className={styles.content}>
                     <h1 className={styles.title}>Welcome, I'm Rony</h1>
                     <p className={styles.description}>
-                        Web Developer. React Enthusiast. Co-op Student.
+                        Full-Stack Developer | Technical Solutions & Consulting
 
                     </p>
                     <div className={styles.interact}>

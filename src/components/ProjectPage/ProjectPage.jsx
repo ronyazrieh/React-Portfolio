@@ -18,6 +18,53 @@ export const ProjectPage = () => {
         </div>
         <div className={styles.ProjectSection}>
 
+          <motion.div
+            className={styles.ProjectCard}
+            id={styles.four}
+            transition={{ duration: .3 }}
+            whileHover={{
+              boxShadow: "0 0 32px 7px rgba(82, 120, 255, 0.50)",
+              scale: 1.003,
+            }}
+          >
+            <img src={getImageUrl("projects/ColossusChorus.png")} alt="Colossus Chorus" />
+
+            <div className={styles.ProjectInfo}>
+              <h4 className={styles.ProjectTitle}>Colossus Chorus</h4>
+
+              <p className={styles.ProjectDesc}>
+                A 3D narrative action game inspired by Persona 5 and Risk of Rain,
+                developed in Unity as my capstone project. I led the development of the
+                arena gameplay, implementing player movement, camera systems, spell-based
+                combat, enemy AI using finite state machines, procedural arena progression,
+                and encounter management.
+              </p>
+
+              <a
+                href="https://github.com/ronyazrieh/Colossus-Chorus"
+                className={styles.link}
+              >
+                <div>
+                  <a
+                    href="https://github.com/ronyazrieh/Colossus-Chorus"
+                    className={styles.LinkName}
+                  >
+                    Visit project
+                  </a>
+
+                  <SlArrowRight />
+                </div>
+              </a>
+
+              <div className={styles.ProjectKey}>
+                <div>Unity</div>
+                <div>C#</div>
+                <div>AI</div>
+                <div>Game Development</div>
+              </div>
+            </div>
+          </motion.div>
+
           <motion.div className={styles.ProjectCard} id={styles.one} transition={'duration: .3'}
             whileHover={{
               boxShadow: "0 0 32px 7px rgba(239, 79, 139, 0.50)",
