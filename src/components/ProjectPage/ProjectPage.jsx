@@ -23,7 +23,7 @@ export const ProjectPage = () => {
             id={styles.four}
             transition={{ duration: .3 }}
             whileHover={{
-              boxShadow: "0 0 32px 7px rgba(82, 120, 255, 0.50)",
+              boxShadow: " 0 0 32px 2px rgba(111, 26, 7, 0.30)",
               scale: 1.003,
             }}
           >
