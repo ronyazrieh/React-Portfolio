@@ -41,12 +41,12 @@ export const ProjectPage = () => {
               </p>
 
               <a
-                href="https://github.com/ronyazrieh/Colossus-Chorus"
+                href="https://colossuschorus.netlify.app/"
                 className={styles.link}
               >
                 <div>
                   <a
-                    href="https://github.com/ronyazrieh/Colossus-Chorus"
+                    href="https://colossuschorus.netlify.app/"
                     className={styles.LinkName}
                   >
                     Visit project

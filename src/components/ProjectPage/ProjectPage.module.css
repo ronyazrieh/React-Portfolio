@@ -49,6 +49,15 @@
     box-shadow: 0 0 32px 2px rgba(243, 0, 6, 0.30);
 }
 
+#four{
+    background-color: #6F1A07;
+    box-shadow: 0 0 32px 2px rgba(111, 26, 7, 0.30);
+    }
+
+#four .ProjectInfo{
+    margin-right: 43px;
+    }
+
 #one .ProjectInfo{
     margin-left: 43px;
 }
@@ -150,15 +159,6 @@
 
     #three{
         flex-direction: column-reverse;
-    }
-
-    #four{
-    background-color: #6F1A07;
-    box-shadow: 0 0 32px 2px rgba(111, 26, 7, 0.30);
-    }
-
-    #four .ProjectInfo{
-    margin-right: 43px;
     }
 
     .ProjectCard img{
